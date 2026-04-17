@@ -26,7 +26,6 @@ API_KEY = os.environ.get('API_KEY', None)
 MODEL = os.environ.get('MODEL', 'gpt-5')
 
 WEB_HOOK = os.environ.get('WEB_HOOK', None)
-TAVILY_API_KEY = os.environ.get('TAVILY_API_KEY', None)
 CHAT_MODE = os.environ.get('CHAT_MODE', "global")
 GET_MODELS = (os.environ.get('GET_MODELS', "True") == "False") == False
 
